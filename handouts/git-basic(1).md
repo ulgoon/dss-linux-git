@@ -40,10 +40,6 @@ footer : fastcampus 데이터 사이언스 스쿨, Wooyoung Choi, 2017
 
 ---
 ## chronicle of git
-![](http://m1.paperblog.com/i/161/1614777/nvidia-f_ck-you-no-digo-dice-linus-torvalds-L-qnel0H.jpeg)
-
----
-## chronicle of git
 - Linux Kernal을 만들기 위해 Subversion을 쓰다 화가 난 리누스 토발즈는 2주만에 git이라는 버전관리 시스템을 만듦
 [git official repo](https://github.com/git/git)
 
