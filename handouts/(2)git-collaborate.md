@@ -169,13 +169,12 @@ Add, Commit and Push like you own it.
 ---
 ## Fork and Merge
 `$ git clone https://github.com/username/forked-repo.git`
-`$ git remote add upstream https://github.com/anotheruser/original-repo.git`
+
 
 ---
 ## Fork and Merge
 
-`$ git fetch upstream`
-`$ git merge upstream/master`
+
 `$ git branch -a`
 `$ git checkout -b new-feature`
 
@@ -215,6 +214,18 @@ Make some change
 ---
 ## Fork and Merge
 ![](../img/pr7.png)
+
+
+---
+## continuous pull
+
+---
+## continuous pull
+
+`$ git remote add upstream https://github.com/anotheruser/original-repo.git`
+
+`$ git fetch upstream`
+`$ git merge upstream/master`
 
 ---
 ## Assignment
