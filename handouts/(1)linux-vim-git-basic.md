@@ -5,7 +5,7 @@
 <!--
 page_number: true
 $size: A4
-footer : fastcampus 데이터 사이언스 스쿨, Wooyoung Choi, 2017
+footer : fastcampus 데이터 사이언스 스쿨, Wooyoung Choi, 2018
 -->
 ## Introduce
 ### 최우영
@@ -239,7 +239,7 @@ press `esc` to escape
 
 ---
 ## chronicle of git
-![](https://bitul-liber.ro/wp-content/uploads/2015/07/linus-torvalds-interviu.png)
+![](https://www.blogcdn.com/www.engadget.com/media/2009/10/linus-torvalds-gives-windows-7-a-big-thumbs-up.jpg)
 
 ---
 ## chronicle of git
@@ -310,7 +310,7 @@ $ sudo apt-get install git
 
 ---
 ## git is not equal to github
-![](http://www.byteshiftcode.com/media/filer_public/e6/a6/e6a62345-4ccb-4d35-a22a-ac41d596e6dc/gitisnotgithub.jpg)
+![](http://1.bp.blogspot.com/-WY2YpNr3W6g/UY6tZAc-H3I/AAAAAAAABLY/xJ9x3wIY8V8/s1600/Github2.png)
 
 
 ---
