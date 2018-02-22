@@ -11,6 +11,10 @@ footer : fastcampus 데이터 사이언스 스쿨, Wooyoung Choi, 2018
 ## github pages
 
 ---
+## git Process and Command
+![](https://i.stack.imgur.com/MgaV9.png)
+
+---
 ## My First Github Pages
 github 저장소를 활용해 정적인 사이트 호스팅이 가능
 
