@@ -5,3 +5,6 @@
 ## How to install bash on ubuntu on windows
 
 [link](http://blog.neonkid.xyz/90)
+
+## Continuous Pull(Add another origin)
+![](./img/addrmorigin.png)
