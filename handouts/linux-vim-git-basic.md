@@ -5,11 +5,12 @@
 <!--
 page_number: true
 $size: A4
-footer : fastcampus 데이터 사이언스 스쿨, Wooyoung Choi, 2018
+footer : fastcampus 데이터 사이언스 스쿨, Wooyoung Choi, 2019
 -->
 ## Introduce
 ### 최우영
 
+- Co-founder, CTO(disceptio)
 - Solution Architect, Web Developer, Instructor
 - Skills: Python, Golang, Julia, Node.js, Google tag manager ...
 
@@ -355,6 +356,34 @@ After create new repo through github,
 `$ git push origin master`
 
 ---
+## start project with clone
+
+
+- github에서 repo를 생성합니다.
+
+```shell
+$ git clone {repo address}
+$ git add .
+$ git commit
+$ git push
+```
+
+---
+## How to move files
+
+```
+$ mv style.css static/css
+```
+-> deleted:
+-> untracked files:
+
+```
+$ git mv style.css static/css
+```
+-> renamed:
+
+
+---
 ## My First Github Pages
 github 저장소를 활용해 정적인 사이트 호스팅이 가능
 
@@ -514,6 +543,18 @@ see the difference between two branches
 `$ git diff master stem`
 
 ---
+## continuous pull
+
+---
+## continuous pull
+
+`$ git remote add upstream https://github.com/anotheruser/original-repo.git`
+
+`$ git fetch upstream`
+`$ git merge upstream/master`
+
+
+---
 ## git flow strategy
 ![](https://media.licdn.com/mpr/mpr/shrinknp_800_800/AAEAAQAAAAAAAAKMAAAAJDM2NjY0OWE4LTc0NDAtNDdkMS1hMDdiLWU3MzkwM2FjYWExNw.png)
 
@@ -598,16 +639,46 @@ Make some change
 
 
 ---
-## continuous pull
+## Process
+
+PM's job
+	$ git clone [PM's repo addr]
+	$ git branch develop
+	$ git checkout develop
+	Do some works..(include add, commit, push on develop)
 
 ---
-## continuous pull
+Dev's job
+	after PM's works, fork and clone into your local system.
+		(사실은 이 사이에 $ git remote add rmorigin {PM's repo addr})
+	$ git branch develop
+	$ git checkout develop
+	fetch, merge rmorigin/develop to your develop
+	Do some works..(include add, commit, push on develop)
+	create pull request on github.com/{you}/{cloned_repo}
 
-`$ git remote add upstream https://github.com/anotheruser/original-repo.git`
+---
+PM's job
+	After receiving pull request mail,
+	talk about this works
+	merge into your repo
 
-`$ git fetch upstream`
-`$ git merge upstream/master`
+---
+## Do your project with co-worker
 
+### TODO
+1. 각 분단의 한 가로줄이 한 팀입니다.
+2. 각 팀의 센터에 있는 분이 PM입니다.
+3. PM은 프로젝트 repo를 생성합니다. (git flow init 포함)
+4. feature/project-init 브랜치 생성 후 index.html을 생성하여 develop 브랜치에 merge합니다.
+5. 나머지 동료는 repo fork, clone 후 git flow를 활용하여 작업을 실시한 뒤 pull request를 생성합니다.
+6. PM은 pull request시 코드 리뷰 후 main repo에 merge 합니다.
+
+---
+## issue managing
+
+---
+## do team-work one more time with issue
 
 
 <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,800" rel="stylesheet">
