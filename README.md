@@ -8,6 +8,9 @@ output) if n is assigned to 15,
 
 2. TIL 이라는 이름으로 새로운 repository를 만들고 README.md 추가하기
 
+## HOMEWORK(1900612)
+
+1. 맘에드는 짝궁 2명과 팀프로젝트 수행하기
 
 #### Changed part1
 
