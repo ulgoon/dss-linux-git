@@ -2,6 +2,8 @@
 
 ## Homework(190605)
 
+### temporary change
+
 1. ternary operators와 list comprehension으로 fizzbuzz 구현하기
 output) if n is assigned to 15,
 `[1,2,'fizz', 4, 'buzz', 'fizz', 7, 8, 'fizz', 'buzz', 11, 'fizz', 13, 14, 'fizzbuzz']`
