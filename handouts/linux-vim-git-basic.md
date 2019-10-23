@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # Fastcampus Data Science SCHOOL
 ## Linux && git
 
