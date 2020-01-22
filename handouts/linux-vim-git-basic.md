@@ -3,13 +3,14 @@ marp: true
 ---
 
 # Fastcampus Data Science SCHOOL
+
 ## Linux && git
 
 ---
 <!--
 page_number: true
 $size: A4
-footer : fastcampus 데이터 사이언스 스쿨, Wooyoung Choi, 2019
+footer : fastcampus 데이터 사이언스 스쿨, Wooyoung Choi, 2020
 -->
 ## Introduce
 ### 최우영
@@ -77,6 +78,8 @@ GNU == `G`NU is `N`ot `U`nix
 ---
 ## Linus Torvalds
 <iframe width="860" height="480" src="https://www.youtube.com/embed/IVpOyKCNZYw" frameborder="0" allowfullscreen></iframe>
+
+https://www.youtube.com/embed/IVpOyKCNZYw
 
 - 헬싱키 대학생이던 리누스 토발즈는 앤디 타넨바움의 MINIX를 개조한 Linux를 발표
 - 0.1 - bash(GNU Bourne Again SHell), gcc(UNIX 기반 C 컴파일러)
